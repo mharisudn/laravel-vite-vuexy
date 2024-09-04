@@ -2,7 +2,7 @@
     <!-- Logo -->
     <div class="app-brand demo">
         <a href="/main" class="app-brand-link">
-            <img src="" alt="Logo" class="app-brand-logo demo" style="height: 100%; width: 2.1rem">
+            <img src="{{ asset('theme/assets/img/avatars/logo.svg') }}" alt="Logo" class="app-brand-logo demo" style="height: 100%; width: 2.1rem">
             <span class="app-brand-text demo menu-text fw-bold" style="font-size: 1.25rem"></span>
         </a>
 
