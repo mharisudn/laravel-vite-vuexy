@@ -1,0 +1,50 @@
+/*a.action-btn {*/
+/*    color: #737373;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    padding: 5px;*/
+/*    margin: 0;*/
+/*    flex-shrink: 0;*/
+/*    display: inline-flex;*/
+/*}*/
+
+/*a.action-btn:hover {*/
+/*    color: #737373;*/
+/*    background: #F5F5F5;*/
+/*    border-radius: 50rem;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    padding: 5px;*/
+/*    margin: 0;*/
+/*    flex-shrink: 0;*/
+/*    display: inline-flex;*/
+/*}*/
+
+.swal2-toast-shown.swal2-shown {
+    z-index: 2000;
+}
+
+#swal2-title.swal2-title {
+    margin: 0;
+}
+h2#swal2-title.swal2-title {
+    line-height: 2.5rem;
+}
+
+.swal2-container, .swal2-toast, .swal2-popup {
+    z-index: 2000;
+}
+div:where(.swal2-container) div:where(.swal2-popup) {
+    z-index: 2000;
+    display: block;
+}
+
+#swal2-popup.swal2-toast {
+    z-index: 2000;
+    padding: 0;
+    margin: 0;
+}
+
+.modal-backdrop {
+    position: relative;
+}
