@@ -1,0 +1,23 @@
+/* Import custom fonts */
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/* Icons CSS */
+@import '@themes/vendor/fonts/fontawesome.css';
+@import '@themes/vendor/fonts/tabler-icons.css';
+@import '@themes/vendor/fonts/flag-icons.css';
+
+/* Core CSS */
+@import '@themes/vendor/css/rtl/core.css';
+@import '@themes/vendor/css/rtl/theme-default.css';
+@import '@themes/css/demo.css';
+@import '@themes/css/custom.css';
+@import '@themes/vendor/libs/animate-css/animate.css';
+
+/* Vendors CSS */
+@import '@themes/vendor/libs/perfect-scrollbar/perfect-scrollbar.css';
+@import '@themes/vendor/libs/node-waves/node-waves.css';
+@import '@themes/vendor/libs/select2/select2.css';
+
+/* Page-specific CSS */
+@import '@themes/vendor/css/pages/page-profile.css';
+@import '@themes/vendor/css/pages/cards-advance.css';

@@ -7,7 +7,7 @@ $(function () {
 
     var newPath = url;
     if (path.length > 1) {
-        for (i = 1; i < 3; i++) {
+        for (let i = 1; i < 3; i++) {
             newPath += "/";
             newPath += path[i];
         }
